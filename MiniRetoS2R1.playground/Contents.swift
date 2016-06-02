@@ -16,9 +16,10 @@ import UIKit
 var lista = 1...100
 
 for i in lista{
-    if (i >= 30 && i <= 40) { print("\(i)\t\("Viva Swift")")}
-    else if i % 5 == 0 { print("\(i)\t\("Bingo")")}
-    else if i % 2 == 0 { print("\(i)\t\("Par")")}
-    else if i % 2 != 0 { print("\(i)\t\("ImPar")")}
+    if (i >= 30 && i <= 40) { print("\(i)\t\("Viva Swift!!!")")}
+    else if i % 5 == 0 { print("\(i)\t\("Bingo!!!")")}
+    else if i % 2 == 0 { print("\(i)\t\("Par!!!")")}
+    else if i % 2 != 0 { print("\(i)\t\("ImPar!!!")")}
     else {print(i)}
 }
+
