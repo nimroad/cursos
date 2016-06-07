@@ -13,13 +13,14 @@ import UIKit
  vamos a imprimir el número, más la palabra Viva Swift.
  */
 
-var lista = 1...100
+var lista = 0...100
 
 for i in lista{
     if (i >= 30 && i <= 40) { print("\(i)\t\("Viva Swift!!!")")}
-    else if i % 5 == 0 { print("\(i)\t\("Bingo!!!")")}
-    else if i % 2 == 0 { print("\(i)\t\("Par!!!")")}
+    else if i % 5 == 0 && i != 0 { print("\(i)\t\("Bingo!!!")")}
+    else if i % 2 == 0 && i != 0 { print("\(i)\t\("Par!!!")")}
     else if i % 2 != 0 { print("\(i)\t\("ImPar!!!")")}
     else {print(i)}
 }
+
 
